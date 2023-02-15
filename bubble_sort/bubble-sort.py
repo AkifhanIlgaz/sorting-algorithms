@@ -1,12 +1,12 @@
 def bubble_sort(nums):
     n = len(nums)
-    swapping = True
+    sorted = False
 
-    while swapping:
-        swapping = False
+    while not sorted:
+        sorted = True
         for i in range(1, n):
             if nums[i] < nums[i-1]:
                 nums[i], nums[i-1] = nums[i-1], nums[i]
-                swapping = True
+                sorted = False
     
     return nums
