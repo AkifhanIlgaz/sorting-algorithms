@@ -7,5 +7,3 @@ function addFiles(dirName, fileName) {
   fs.writeFileSync(`${dirName}/${fileName}.py`, " ");
   fs.writeFileSync(`${dirName}/${fileName}.go`, " ");
 }
-
-addFiles("insertion_sort", "insertion-sort");
