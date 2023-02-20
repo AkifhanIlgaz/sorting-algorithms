@@ -1,7 +1,3 @@
-fn main() {
-    println!("Hello, world!");
-}
-
 fn bubble_sort<T: Ord>(nums: &mut [T]) {
     let mut sorted = false;
 
