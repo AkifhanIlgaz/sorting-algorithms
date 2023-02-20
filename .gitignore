@@ -1,5 +1,6 @@
 bubble_sort/bubble-sort/target
 merge_sort/merge-sort/target
 insertion_sort/insertion-sort/target
+quick_sort/quick-sort/target
 
 addFiles.js
